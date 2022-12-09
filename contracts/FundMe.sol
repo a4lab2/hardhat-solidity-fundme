@@ -48,12 +48,12 @@ contract FundMe {
     // Recieves and Fallbacks
     //recieve
     receive() external payable {
-        fund();
+        // fund();
     }
 
     //fallback
     fallback() external payable {
-        fund();
+        // fund();
     }
 
     /**
